@@ -1,3 +1,4 @@
 pituophis
 requests
-
+parse
+beautifulsoup4
