@@ -23,7 +23,7 @@ def register_handler(path: str):
 @register_handler("/post/{id}")
 def post(request: Request, id: int):
     post = get(urljoin(wordpress_url, f"wp-json/wp/v2/posts/{id}")).json()
-    return BeautifulSoup(post["content"]).get_text()
+    return BeautifulSoup(post["content"]["rendered"]).get_text()
 
 
 def handle(request):
