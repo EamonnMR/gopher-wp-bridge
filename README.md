@@ -8,11 +8,14 @@ Pass your desired wordpress site's URL and port with environment variables like 
 
 `URL='http://wordpress.example.com' PORT='7070' python server.py`
 
+Connect like this:
+
+`lynx gopher://localhost:7070`
+
 ## Why
 
 Because I'm not just a luddite, I'm an incredibly lazy luddite.
 
 ## Project status
 
-Experimental. Lacks basic capabilities; right now it's just a menu with your last ten posts.
-
+Experimental. Just shows posts and pages. Could do a lot more cleanup, maybe adding a menu within each page to extract all of the links or something.
