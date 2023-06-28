@@ -6,7 +6,7 @@ Python gopher server using [https://github.com/dotcomboom/Pituophis/](https://gi
 
 Pass your desired wordpress site's URL and port with environment variables like so:
 
-`URL='http://wordpress.example.com' PORT='7070' python server.py`
+`HOST=gopher.example.com URL='http://wordpress.example.com' PORT='7070' python server.py`
 
 Connect like this:
 

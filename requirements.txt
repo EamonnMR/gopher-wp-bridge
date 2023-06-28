@@ -2,3 +2,4 @@ pituophis
 requests
 parse
 beautifulsoup4
+unidecode
